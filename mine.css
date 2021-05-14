@@ -1,0 +1,144 @@
+#HOME{
+    padding: 0;
+    margin: 0;
+    background: url(images/bck.jpeg) no-repeat;
+    background-size: cover;
+    
+
+}
+.box{
+    width: 400px;
+    background-color: rgba(0,0,0,0.7);
+    padding: 30px 0;
+    border-radius: 10%;
+    text-align: center;
+    margin: auto;
+    font-family: sans-serif;
+
+}
+.box-img{
+    border-radius: 70%;
+    height: 350px;
+   
+}
+.navbars{
+    background: rgb(44, 42, 42);
+    width: 100%;
+    overflow: auto;
+
+}
+
+.navbars a{
+    float: left;
+    padding-left: 0;
+    text-decoration: none;
+    color:yellow;
+    font-weight: bold;
+
+    
+}
+
+nav ul{
+     margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+    
+}
+.profiletext{
+    color: white;
+}
+.profiletext h2{
+    color: white;
+}
+a{
+    padding: 20px;
+    
+}
+
+#BLOG{
+    padding: 0;
+    margin: 0;
+    background: url(images/me.jpeg) no-repeat;
+    background-size: cover;
+    font-size: 25px;
+}
+.heading{
+    width: 1150px;
+    padding: 35px 0;
+}
+ .img{
+     float: left;
+ }
+ #ABOUT{
+     margin: 0;
+     padding: 0;
+     text-align: center;
+     padding: 40px 0px;
+     margin: auto;
+     font-family: fantasy;
+     border-radius: 5%;
+     background-color: grey;
+     font-size: 25px;
+
+
+ }
+ 
+ h2{
+     color: black;
+ }
+ .name{
+     text-align: center;
+ }
+ #textbox{
+     text-align: center;
+
+ }
+ #CONTACT{
+     margin: 0;
+     padding: 0;
+     background-size: cover;
+     padding: 40px 0;
+     text-align: center;
+     color: #ddd;
+    }
+    .contact-form{
+     max-width: 600px;
+     margin: auto;
+     padding: 0 10px;
+     overflow: hidden;
+    }
+    .contact-form-text{
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+        border: 0;
+        margin: 16px 0;
+        background:rgb(179, 175, 175);
+        padding: 20px 40px;
+        outline: none;
+        color: black;
+
+    }
+    textarea.contact-form-text{
+        height:120px;
+        resize: none;
+    }
+    .contact-form-btn{
+        float: right;
+        border: 0;
+        background: gray;
+        color: black;
+        padding: 12px 50px;
+        border-radius: 20px;
+        cursor: pointer;
+
+    }
+    .contact-form-btn:hover{
+        background: wheat;
+    }
+    .contact-form-text:hover{
+        background: wheat;
+    }
+
+
